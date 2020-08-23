@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1585640696 source:/home/colin/文档/ServerDemo/src/err_str.c
+	"err_str.h"
+
+1542966928 /home/colin/文档/ServerDemo/include/err_str.h
+	<packdef.h>
+
+1586067441 /home/colin/文档/ServerDemo/include/packdef.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<ctype.h>
+	<sys/epoll.h>
+	<sys/stat.h>
+	<pthread.h>
+	<signal.h>
+	<errno.h>
+	"err_str.h"
+	<malloc.h>
+	"Queue.h"
+
+1585850868 /home/colin/文档/ServerDemo/include/Queue.h
+	"packdef.h"
+
+1552383783 source:/home/colin/文档/ServerDemo/src/main.c
+	<TCPKernel.h>
+
+1586016040 /home/colin/文档/ServerDemo/include/TCPKernel.h
+	"Thread_pool.h"
+	"TCPNet.h"
+	"packdef.h"
+	"Mysql.h"
+
+1548319319 /home/colin/文档/ServerDemo/include/Thread_pool.h
+	"packdef.h"
+
+1552801620 /home/colin/文档/ServerDemo/include/TCPNet.h
+	<TCPKernel.h>
+
+1585052837 /home/colin/文档/ServerDemo/include/Mysql.h
+	"packdef.h"
+	<mysql/mysql.h>
+
+1585667005 source:/home/colin/文档/ServerDemo/src/Mysql.c
+	"Mysql.h"
+
+1585851014 source:/home/colin/文档/ServerDemo/src/Queue.c
+	"Queue.h"
+
+1586065747 source:/home/colin/文档/ServerDemo/src/TCPKernel.c
+	<TCPKernel.h>
+	"packdef.h"
+
+1562899887 source:/home/colin/文档/ServerDemo/src/TCPNet.c
+	<TCPNet.h>
+
+1552227214 source:/home/colin/文档/ServerDemo/src/Thread_pool.c
+	<Thread_pool.h>
+	"packdef.h"
+

@@ -1,0 +1,36 @@
+/*音乐播放条*/
+QSlider::add-page:Horizontal#horizontalSlider_music
+{
+        background-color: rgb(246,246,248);height:5px;
+}
+QSlider::sub-page:Horizontal#horizontalSlider_music
+{
+        background-color: rgb(255, 0, 0);height:5px;
+}
+QSlider::handle:Horizontal#horizontalSlider_music
+{
+        width:14px;border-image: url(images/point_music.png);margin:-5 px -5px;
+}
+QSlider::groove:Horizontal#horizontalSlider_music
+{
+        background:rgb(0, 255, 0);height:5px;
+}
+
+/*音乐音量条*/
+QSlider::add-page:Horizontal#horizontalSlider_sound
+{
+        background-color: rgb(246,246,248);height:5px;
+}
+QSlider::sub-page:Horizontal#horizontalSlider_sound
+{
+        background-color: rgb(255, 0, 0);height:5px;
+}
+QSlider::groove:Horizontal#horizontalSlider_sound
+{
+        background:rgb(0, 255, 0);height:5px;
+}
+QSlider::handle:Horizontal#horizontalSlider_sound
+{
+        margin: -5px -5px;height: 10px;width:10px;background-color: transparent;
+}
+
